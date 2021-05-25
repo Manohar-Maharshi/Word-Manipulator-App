@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Word Manipulator App</title>
+		<link rel="stylesheet" href="./reset.css" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h2 class="title">Word Manip.</h2>
+		<main class="content">
+			<nav class="word-manip-menu">
+				<ul class="menu">
+					<li><a id="capitalize" href="#">Capitalize</a></li>
+					<li><a id="upperCase" href="#">UpperCase</a></li>
+					<li><a id="lowerCase" href="#">LowerCase</a></li>
+					<li><a id="titleCase" href="#">TitleCase</a></li>
+				</ul>
+			</nav>
+			<div class="counter">
+				<div class="word-counter">Words : <span id="noWords">0</span></div>
+				<div class="letter-counter">Characters : <span id="noCharacters">0</span></div>
+			</div>
+			<div class="text-area">
+				<textarea name="text-area" id="textArea" cols="70" rows="5" wrap="virtual"></textarea>
+				<span class="copy"><a id="copyToClipboard" href="#">Copy to Clipboard</a></span>
+			</div>
+		</main>
+		<script src="voca.min.js"></script>
+		<script src="./script.js" type="text/javascript"></script>
+	</body>
+</html>

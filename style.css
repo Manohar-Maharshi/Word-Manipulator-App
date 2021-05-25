@@ -1,0 +1,81 @@
+body {
+	background-color: #f4f4f4;
+}
+main {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 600px;
+}
+a {
+	user-select: none;
+	user-drag: none;
+}
+.title {
+	text-align: center;
+	font-size: 8rem;
+	color: #888888;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -0.5rem;
+	user-select: none;
+	user-drag: none;
+}
+.word-manip-menu {
+	margin-top: 0.8rem;
+	margin-bottom: 1.5rem;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu li {
+	margin-right: 2rem;
+	cursor: pointer;
+}
+.menu li:last-child {
+	margin-right: 0rem;
+}
+.menu li a,
+.copy a {
+	background-color: lightgray;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #888888;
+	padding: 0.3rem 0.6rem;
+	border-radius: 2px;
+	transition: all 0.05s ease;
+}
+.menu li a:hover,
+.copy a:hover {
+	background-color: #888888;
+	color: #f4f4f4;
+}
+.counter {
+	display: flex;
+	align-items: center;
+	color: gray;
+	margin-bottom: 1rem;
+}
+.word-counter {
+	margin-right: 1rem;
+}
+textarea {
+	outline: none;
+	border-color: #8888;
+	color: gray;
+	resize: none;
+	font-family: inherit;
+	font-size: 1.1rem;
+	padding: 0.3rem 0.5rem;
+}
+.copy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 1rem;
+}
